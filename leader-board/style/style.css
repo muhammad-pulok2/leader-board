@@ -1,0 +1,57 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+/* UNIVERSAL DESIGN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------
+ HEADER AREA DESIGN 
+ --------------------*/
+header {
+  display: flex;
+  justify-content: center;
+  background: #562eff;
+  height: 60px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 870px;
+  color: #fff;
+}
+.logo-side,
+.menu-side {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.logo-side .text a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu nav ul {
+  display: flex;
+  gap: 10px;
+}
+.menu nav ul li {
+  list-style: none;
+}
+.menu nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.menu-side .img img{
+  height: 45px;
+  width: 45px;
+}
+
+.header-container .logo-side .logo img {
+  width: 33px;
+  height: 40px;
+}
