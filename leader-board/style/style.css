@@ -74,7 +74,7 @@ main {
 .top-player {
   padding-bottom: 15px;
 }
-.top-player .top-player-title h3 {
+.title h3 {
   font-weight: 500;
   color: rgb(86, 46, 255);
   padding-bottom: 20px;
@@ -101,6 +101,23 @@ main {
 .player img {
   width: 56px;
   height: 56px;
+}
+
+/* TOP BLOG STYLE */
+.top-blog {
+  margin-top: 15px;
+}
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+  display: flex;
+  gap: 15px;
+}
+.blog .blog-image img{
+  width: 177px;
+  height: 117px;
 }
 
 /*----------------------
