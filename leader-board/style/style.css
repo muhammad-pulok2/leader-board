@@ -64,12 +64,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .player-blog {
   width: 870px;
   background: #fff;
   margin: 25px 0 15px 0;
   padding: 25px;
+  border-radius: 8px;
 }
 .top-player {
   padding-bottom: 15px;
@@ -134,6 +136,20 @@ main {
 .blog .blog-content p span {
   color: #9f9f9f;
 }
+/* COURSE SECTION STYLE */
+.letest-courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fff;
+  padding: 25px;
+  width: 870px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+.course .thumbnail-pic img{
+  width: 224px;
+  height: 104px;
+}
 
 /*----------------------
  RESPONSIVE WEB DESIGN PART
@@ -169,13 +185,7 @@ main {
     font-size: 15px;
   }
   /* player */
-  /* .players-container {
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-row-gap: 20px;
-    justify-items: start;
-    justify-content: center;
-  } */
+
   .top-player {
     padding-bottom: 15px;
     display: grid;
@@ -194,7 +204,7 @@ main {
     grid-row-gap: 20px;
   }
   .blog .blog-image img {
-    width: 320px;
+    width: 100%;
     height: 215px;
   }
 
