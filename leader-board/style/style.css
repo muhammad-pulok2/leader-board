@@ -1,11 +1,11 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 /* UNIVERSAL DESIGN */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ------------------
@@ -29,9 +29,9 @@ header {
   gap: 15px;
   align-items: center;
 }
-.logo-side .text a{
-    text-decoration: none;
-    color: #fff;
+.logo-side .text a {
+  text-decoration: none;
+  color: #fff;
 }
 .menu nav ul {
   display: flex;
@@ -46,7 +46,7 @@ header {
   font-weight: 300;
 }
 
-.menu-side .img img{
+.menu-side .img img {
   height: 45px;
   width: 45px;
 }
@@ -55,3 +55,39 @@ header {
   width: 33px;
   height: 40px;
 }
+
+/*----------------------
+ RESPONSIVE WEB DESIGN PART
+ ---------------------- */
+
+@media only screen and (max-width: 576px) {
+  .header-container {
+    margin: 0 25px;
+  }
+  .logo-side,
+  .menu-side {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .menu nav ul {
+    display: flex;
+    gap: 7px;
+  }
+  .menu-side .img img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .header-container .logo-side .logo img {
+    width: 30px;
+    height: 35px;
+  }
+  .menu nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
